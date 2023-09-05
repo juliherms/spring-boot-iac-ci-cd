@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0.29
+    container_name: mysql-movie
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      #Seta o timezone do banco de dados
+      TZ: America/Sao_Paulo
+      MYSQL_USER: sales
+      MYSQL_PASSWORD: sales
+      MYSQL_ROOT_PASSWORD: root
+      #Seta o nome do banco de dados
+      MYSQL_DATABASE: movie_db
