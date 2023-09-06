@@ -7,3 +7,4 @@ CREATE TABLE `movie` (
 INSERT INTO `movie` (`description`) VALUES ('Batman Begins');
 INSERT INTO `movie` (`description`) VALUES ('Avengers: Infinity War');
 INSERT INTO `movie` (`description`) VALUES ('Guardians of the Galaxy Vol. 3');
+INSERT INTO `movie` (`description`) VALUES ('Filme Teste');
